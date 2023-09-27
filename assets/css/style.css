@@ -58,7 +58,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navbar styles with drop down toggle */
@@ -132,5 +132,11 @@ footer {
     main{
         /* push main content down to accodate larger header */
         margin-top: 79px;
+    }
+}
+ /* Line under item of nav when hovered with mouse (laptop and up) */
+@media screen and (min-width: 992px){
+    #menu a:hover c {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
