@@ -7,7 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'lato', sans-serif;
+    
 }
 
 
@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
+    font-family: 'lato', sans-serif;
 }
 
 
@@ -91,7 +92,7 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 48px;
+    margin-top: 40px;
 }
 
 footer {
@@ -131,12 +132,14 @@ footer {
     /* main content */
     main{
         /* push main content down to accodate larger header */
-        margin-top: 79px;
+        margin-top: 77px;
     }
 }
- /* Line under item of nav when hovered with mouse (laptop and up) */
+  
+
+/* Line under item of nav when hovered with mouse (laptop and up) */
 @media screen and (min-width: 992px){
-    #menu a:hover c {
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }
