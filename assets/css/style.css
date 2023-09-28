@@ -126,6 +126,19 @@ main {
     color: #ffffff;
 }
 
+/* Gallery Page */
+#photos img {
+    /* Allow the photo to fit the width of the screen */
+    width: 100%;
+    /* allows the alt to still be seen */
+    line-height: 1em;
+
+}
+
+#photos P{
+    /* removes the spacing between the photos */
+    line-height: 0;
+}
 
 /* footer */
 #social-networks {
