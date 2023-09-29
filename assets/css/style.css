@@ -227,6 +227,62 @@ main {
     color: #fafafa;
 }
 
+/* Sign Up Page */
+
+/* Main content */
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+
+#signup {
+    background: url(../images/signup-image.webp) no-repeat center cover/center;
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    margin: 20px 10%;
+}
+
+#signup h2 {
+    color: #fafafa;
+    margin: 30px;
+    
+    
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .6);
+    margin: 30px;
+}
+
+.text-input {
+    color: rgba(0, 0, 0, 0.6);
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+#radio-buttons {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.join-button {
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    margin-bottom: 30px;
+
+}
+
+
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos{
