@@ -239,6 +239,8 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+/* form */
  /* backgorund Image */
 #signup {
     background-image: url(../images/signup-image.webp);
@@ -362,6 +364,26 @@ main {
     /* Gallery */
     #photos {
         column-count: 3;
+    }
+
+    /* form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+    .text-input {
+        border-color: #f16c6b;
+    }
+    .join-button {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 }
 
